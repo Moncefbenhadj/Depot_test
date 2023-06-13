@@ -1,0 +1,35 @@
+Exercice 5 :
+
+Pour régler un conflit : 
+étape 1 choisir le texte/code qu’on veut garder, 
+étape 2 commit dans le master, 
+( étape 3 retourner vers la branche, 
+  étape 4 modifier pour le choix final, 
+  étape 5 revenir sur master, 
+  étape 6 merge ) dans le cas ou vous utilisez encore cette branche 
+
+créer le dossier exo5, se placer dessus
+git init  
+créer un fichier index.html et lui donner une structure de base
+vérifier le status
+commit 
+créer une branche HTML et se positionner dedans 
+Modifier le texte de la balise title pour “Exercice 5”
+vérifier le status
+commit 
+Se positionner sur la branche master 
+modifier le texte de la balise pour “Exercice 6”
+commit
+merge la branche HTML 
+résoudre le conflit 
+merge la branche HTML 
+créer une branche CSS et se positionner dedans
+ajouter une balise style 
+modifier le texte de la balise title pour “Exercice 5 a du style !” 
+commit
+aller sur master, modifier le texte de la balise title pour “Exercice 6 a du style”
+commit
+merge la branche CSS
+régler le conflit 
+merge la branche CSS
+couper les branches inutiles 
